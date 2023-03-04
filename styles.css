@@ -2,6 +2,7 @@
 body {
     background: #fff;
     font-family: 'Nanum Pen Script', cursive;
+        overflow-x: hidden;
   }
   
   .card-block .btn-outline-primary {
