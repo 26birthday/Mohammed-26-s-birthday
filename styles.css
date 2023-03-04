@@ -19,7 +19,7 @@ body {
     font-weight: bold;
   }
   .card  {
-    width: 80%;
+    /* width: 80%; */
     display: block;
   }
   /* Flip Cards CSS */
