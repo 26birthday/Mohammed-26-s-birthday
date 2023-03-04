@@ -15,12 +15,13 @@ body {
   
   .card {
     margin: 20px 0;
-    font-size: 2rem;
+    font-size: 1rem;
     /* font-weight: bold; */
   }
   .card img {
-    height: 400px;
-    width: auto;
+    max-width: 400px;
+    height:  auto;
+    width: 100%;
     margin: auto;
 
 
@@ -40,6 +41,12 @@ body {
     background: #2E6185;
     border: none;
     color: #fff;
+    max-width: 400px;
+    max-height: 500px;
+
+      width: 100%;
+
+
   }
   
   .card-flip div {
@@ -52,18 +59,24 @@ body {
   
   .card-flip .front {
     /* width: 70%; */
-    height: 400px;
 
     position: relative;
     z-index: 1;
+    max-width: 400px;
+    max-height: 500px;
+
+      width: 100%;
   }
   
   .card-flip .back {
     position: relative;
-    height: 400px;
-
+    width: 100%;
     z-index: 0;
     transform: rotateY(-180deg);
+    max-width: 400px;
+    max-height: 500px;
+
+      width: 100%;
   }
   
   .card-container:hover .card-flip {
