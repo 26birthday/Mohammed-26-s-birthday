@@ -2,7 +2,8 @@
 body {
     background: #fff;
     font-family: 'Nanum Pen Script', cursive;
-        overflow-x: hidden;
+    overflow-x: hidden
+
   }
   
   .card-block .btn-outline-primary {
@@ -16,11 +17,11 @@ body {
   
   .card {
     margin: 20px 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     /* font-weight: bold; */
   }
   .card img {
-    max-width: 200px;
+    max-width: 400px;
     height:  auto;
     width: 100%;
     margin: auto;
@@ -87,4 +88,9 @@ body {
   .b{
     background-color: #FAEAD8;
     color: #2E6185;
+  }
+
+  .bg-image{
+    /* max-width: 700px; */
+ width: 80vw;
   }
